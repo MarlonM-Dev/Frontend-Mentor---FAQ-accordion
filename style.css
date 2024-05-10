@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Work Sans;
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+:root {
+    --clr-white: #ffffff;
+    --clr-light-pink: #f9f0ff;
+    --clr-grayish-purple: #8c6991;
+    --clr-dark-purple: #2f1533;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: Work Sans;
+}
+
+body {
+    background-color: var(--clr-light-pink);
+}
+
+.box {
+    display: flex;
+    gap: 1em;
+}
+
+.star {
+    width: 1.7em;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 500px;
+    flex-direction: column;
+    border: 1px solid red;
+}
